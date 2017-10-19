@@ -1,5 +1,22 @@
 <resources>
     <string name="app_name">Chintokan Event Manager</string>
     <string name="copyrights">\u00a9 chintokan 2017</string>
-    <string name="dojo">Chintokan</string>
+    <string name="dojo">chintokan</string>
+    <string name="userNameHint">Enter Id</string>
+    <string name="passwordHint">Enter password</string>
+    <string name="login">Login</string>
+    <string name="title_activity_homescreen">Chintokan</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="desc">We practice and promote the classical Japanese and Okinawan martial art discipline, strategy, and culture known as Budo.  By applying the "Framework of Life" that Budo fosters, we are dedicated to building a better future for our next generation.
+
+So Budo Kai is the name of our international martial arts organization, represented by five independent dojos, with its own art form, lineage and license.
+
+The "So" which appears in So Budo Kai means all-encompassing. Budo is mentioned above and Kai is association or meetings.  Thus, So Budo Kai is an "Association for a Comprehensive system of Budo."
+
+This name was created by So Shihan Sakimukai in 2008, but the first art form and the foundation of So Budo Kai, the Chintokan Dojo, Okinawan Shorin Ryu Karate-Do, was originally established in 1962, Osaka, Japan, by his father Soke Masaharu Sakimukai. Then two decades later, his father added three more Budo to the Chintokan Dojo:  1) "Beikoku Shudokai" - Shindo Muso Ryu Jodo, 2) "Kenbukan Iaido" - Mugai Ryu Iaihyodo, and 3) "Ryukyu Kobudo Kai."  Lastly, in March 2015, after five preparatory years, a fifth Budo "Aikido" officially joined So Budo Kai family.</string>
+    <string name="desc2">How are we different?  Simply described, we place the highest regard on the Dignity of the Weapons -- hands and feet included.  We aim to develop a strong mind, spirit and body through our traditional and modern curricula.</string>
 </resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our SoShihan"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:paddingTop="30sp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/soshihan"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</LinearLayout>

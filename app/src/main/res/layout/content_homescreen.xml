@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/replaceThis"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="madmaxstudios.com.chintokaneventmanager.Activities.Homescreen"
+    tools:showIn="@layout/app_bar_homescreen">
+
+    <TextView
+        android:id="@+id/tvwallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:padding="10sp"
+        android:background="@drawable/bg_boderbrown_inside_white"
+        android:layout_marginRight="14dp"
+        android:text="Rs: 0.00"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="wrap_content"
+        android:id="@+id/vp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvwallet"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/tvwallet"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="15dp"
+        android:text="Amount"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"/>
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="47dp"
+            android:text="Add Money"
+            android:textColor="@color/colorPrimary"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="46dp"
+            android:layout_marginStart="46dp"
+            android:text="Amount :"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="41dp"
+            android:layout_below="@+id/textView14"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/etAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView15"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView15"
+            android:layout_alignStart="@+id/textView15"
+            android:layout_below="@+id/etAmount"
+            android:layout_marginTop="36dp"
+            android:text="Confirm Amount :"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etCAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etAmount"
+            android:layout_alignStart="@+id/etAmount"
+            android:layout_below="@+id/textView16"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <RelativeLayout
+            android:id="@+id/addMoneyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:padding="20sp"
+                android:text="Add Money"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>
